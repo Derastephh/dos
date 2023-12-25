@@ -3,15 +3,15 @@ A Denial-of-Service (DoS) attack is an attack meant to shut down a machine or ne
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/Derastephh/dos
 
 ## Install dependencies:
 pip install requests
 
 ## Usage
     Open a terminal and navigate to the project directory.
-Run the script: python3 req.py
+    cd dos
+    python3 req.py
 
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests.
