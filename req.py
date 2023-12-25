@@ -1,9 +1,10 @@
 import requests
 import threading
 
+# replace url with target url
 url = 'https://www.aim7777.com/index/auth/signup/invitecode/TR94Y.html'
 
-# Get user input for registration data
+# Get user input for registration data, don't forget to replace relevant data
 mobile = input("Enter mobile number: ")
 password = input("Enter password: ")
 cpassword = input("Confirm password: ")
