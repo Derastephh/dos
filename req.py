@@ -3,11 +3,17 @@ import threading
 
 url = 'https://www.aim7777.com/index/auth/signup/invitecode/TR94Y.html'
 
+# Get user input for registration data
+mobile = input("Enter mobile number: ")
+password = input("Enter password: ")
+cpassword = input("Confirm password: ")
+invitecode = input("Enter invite code: ")
+
 data = {
-    'mobile': '124567891',
-    'password': 'ghbknlml',
-    'cpassword': 'vgfgbjk',
-    'invitecode': 'TR94Y',
+    'mobile': mobile,
+    'password': password,
+    'cpassword': cpassword,
+    'invitecode': invitecode,
 }
 
 def do_request():
@@ -26,5 +32,4 @@ for i in range(50):
     threads[i].start()
     
 for i in range(50):
-    threads[i].join()        
-
+    threads[i].join()
